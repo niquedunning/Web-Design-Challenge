@@ -1,0 +1,35 @@
+.image {
+  align-content: center;
+  padding-right:25px;
+  margin:10px
+}
+
+
+
+@media (max-width: 600px) {
+    .analyst {
+        position: relative;
+        align-content: center;
+        width: fit-content;
+        padding-top: 20px ; 
+        padding-bottom: 20px;  } 
+    
+    .vizualize {
+      align-content: center;
+        width: fit-content;
+        padding-top: 20px ; 
+      } 
+    
+    .box-3 {
+        display: none;
+      } 
+    
+     .box-4 {
+        transform: rotate(360deg);
+        transition: transform 0.5s ease-in;
+     }
+
+
+
+
+}
